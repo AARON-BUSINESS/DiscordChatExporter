@@ -172,7 +172,6 @@
                 IsChecked="{Binding IsAdvancedSectionDisplayedByDefault, Mode=OneTime}"
                 Style="{DynamicResource MaterialDesignHamburgerToggleButton}"
                 ToolTip="Toggle advanced options" />
-
             <Button
                 Grid.Column="2"
                 Margin="8"

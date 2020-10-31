@@ -73,6 +73,7 @@ namespace DiscordChatExporter.Gui.ViewModels.Dialogs
 
         public void Confirm()
         {
+            Console.Write("Hello!");
             // Persist preferences
             _settingsService.LastExportFormat = SelectedFormat;
             _settingsService.LastPartitionLimit = PartitionLimit;
