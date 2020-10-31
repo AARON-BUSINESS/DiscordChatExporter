@@ -68,7 +68,7 @@ namespace DiscordChatExporter.Gui.ViewModels.Dialogs
         }
 
         public void Upload() {
-            Console.Write("Hello!");
+            MessageBox.Show("Hello!");
         }
 
         public void Confirm()
