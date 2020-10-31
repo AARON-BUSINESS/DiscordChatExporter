@@ -67,6 +67,10 @@ namespace DiscordChatExporter.Gui.ViewModels.Dialogs
             ShouldDownloadMedia = _settingsService.LastShouldDownloadMedia;
         }
 
+        public void Upload() {
+            Console.Write("Hello!");
+        }
+
         public void Confirm()
         {
             // Persist preferences
