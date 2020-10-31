@@ -68,12 +68,11 @@ namespace DiscordChatExporter.Gui.ViewModels.Dialogs
         }
 
         public void Upload() {
-            Console.Write("Hello!");
+            Debug.WriteLine("Hello!");
         }
 
         public void Confirm()
         {
-            Console.Write("Hello!");
             // Persist preferences
             _settingsService.LastExportFormat = SelectedFormat;
             _settingsService.LastPartitionLimit = PartitionLimit;
