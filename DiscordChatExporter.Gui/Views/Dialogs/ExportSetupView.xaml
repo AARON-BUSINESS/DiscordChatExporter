@@ -182,6 +182,13 @@
             <Button
                 Grid.Column="3"
                 Margin="8"
+                Command="{s:Action Upload}"
+                Content="UPLOAD"
+                IsDefault="True"
+                Style="{DynamicResource MaterialDesignFlatButton}" />
+            <Button
+                Grid.Column="4"
+                Margin="8"
                 Command="{s:Action Close}"
                 Content="CANCEL"
                 IsCancel="True"

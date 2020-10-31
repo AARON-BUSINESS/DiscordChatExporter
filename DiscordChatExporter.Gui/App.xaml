@@ -142,7 +142,7 @@
                                     <Setter TargetName="ContentPanel" Property="Height" Value="Auto" />
                                     <Setter TargetName="HeaderSite" Property="Style" Value="{StaticResource MaterialDesignExpanderLeftHeaderStyle}" />
                                 </Trigger>
-
+        
                                 <Trigger Property="ExpandDirection" Value="Up">
                                     <Setter TargetName="HeaderSite" Property="DockPanel.Dock" Value="Bottom" />
                                     <Setter TargetName="ContentSite" Property="DockPanel.Dock" Value="Top" />
